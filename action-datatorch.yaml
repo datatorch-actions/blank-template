@@ -1,0 +1,20 @@
+$schema: http://datatorch.io/schema/action.v1.json
+
+name: Python Add
+description: Example running a python to add two numbers.
+inputs:
+  a:
+    type: integer
+    required: true
+    description: First number
+  b:
+    type: integer
+    required: true
+    description: Second number
+outputs:
+  sum:
+    type: integer
+    description: Value of X and Y added together
+runs:
+  using: python
+  main: add.py
