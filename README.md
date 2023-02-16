@@ -1,5 +1,5 @@
 <h1 align="center">
-  Add Action
+  Blank Template
 </h1>
 
 <h4 align="center">Add two inputs together and sets resulting sum as output.</h4>
