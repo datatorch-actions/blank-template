@@ -17,7 +17,7 @@ jobs:
   add:
     steps:
       - name: Download Youtube Video
-        action: datatorch/download-youtube
+        action: datatorch/download-youtube@v1
         inputs:
           url: https://www.youtube.com/watch?v=Z-zR1SgrM-w
 ```
