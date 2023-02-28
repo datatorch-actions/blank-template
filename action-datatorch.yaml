@@ -1,20 +1,14 @@
-$schema: http://datatorch.io/schema/action.v1.json
-
-name: Python Add
-description: Example running a python to add two numbers.
+name: Download Youtube
+description: Downloads a youtube video.
 inputs:
-  a:
-    type: integer
+  url:
+    type: string
     required: true
-    description: First number
-  b:
-    type: integer
-    required: true
-    description: Second number
+    description: URL of the video
 outputs:
-  sum:
-    type: integer
-    description: Value of X and Y added together
+  completed:
+    type: boolean
+    description: Returns true if video is downloaded.
 runs:
   using: python
-  main: add.py
+  main: main.py
