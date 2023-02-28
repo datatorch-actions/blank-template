@@ -12,13 +12,12 @@
 ## Quick Start
 
 ```yaml
-name: 'Add Example'
+name: 'Download Youtube'
 jobs:
   add:
     steps:
-      - name: Add Two Numbers
-        action: datatorch/add@v1
+      - name: Download Youtube Video
+        action: datatorch/download-youtube
         inputs:
-          a: 5
-          b: 5
+          url: https://www.youtube.com/watch?v=Z-zR1SgrM-w
 ```
