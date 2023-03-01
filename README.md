@@ -20,7 +20,7 @@ jobs:
         action: datatorch/download-youtube@latest
         inputs:
           url: https://www.youtube.com/watch?v=Z-zR1SgrM-w
-          path: /
+          path: ./
 ```
 
 ## Requirements
