@@ -5,6 +5,10 @@ inputs:
     type: string
     required: true
     description: URL of the video
+  path:
+    type: string
+    required: false
+    description: Path to download to
 outputs:
   completed:
     type: boolean
