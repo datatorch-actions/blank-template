@@ -21,3 +21,9 @@ jobs:
         inputs:
           url: https://www.youtube.com/watch?v=Z-zR1SgrM-w
 ```
+
+## Requirements
+This script uses pytube to download the video.
+```python
+pip install pytube
+```
