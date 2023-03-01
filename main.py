@@ -14,9 +14,8 @@ if __name__ == "__main__":
     try:
         youtubeObject.download(path)
     except:
-        print("Error with downloading YouTube video.")
         datatorch.set_output('completed', False)
-        quit()
+        raise Exception("Error with downloading YouTube video.")
 
     print("YouTube download successful.")
     datatorch.set_output('completed', True)
