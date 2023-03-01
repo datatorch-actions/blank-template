@@ -16,6 +16,7 @@ if __name__ == "__main__":
     except:
         print("Error with downloading YouTube video.")
         datatorch.set_output('completed', False)
+        quit()
 
     print("YouTube download successful.")
     datatorch.set_output('completed', True)
